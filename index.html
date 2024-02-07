@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <button id="replayGame">Again!</button>
+        <p class="gameRules">Between 1 and 20</p>
+    </nav>
+    <main>   
+    <header>Guess My Number!</header>
+    <h1 class="number-box" id="numberRandom">14</h1>
+    <container>
+    <form class="search-form">
+        <input type="text" value="14" placeholder="enter a number" class="input-box" />
+        <button type="submit" class="button-submit" id="submitButton">Check!</button>
+    </form>
+     <ul class="stats">
+        <li class="game-stats" id="guessResult">Correct Number!</li>
+        <li class="game-stats" id="currentScore">Score: 15</li>
+        <li class="game-stats" id="highScore">Highscore: 17</li>
+     </ul>
+    </container>
+   </main>
+<script src="src/script.js"></script>  
+</body>
+</html>
