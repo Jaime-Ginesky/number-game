@@ -1,6 +1,12 @@
+:root {
+    --main-bg-color:aliceblue;
+    --main-text-font-family: 'Press Start 2P', system-ui;
+
+}
 
 body {
-    background: rgb(12, 147, 12);
-    color:aliceblue;
+    background: rgb(54, 174, 54);
+    color: var(--main-bg-color);
+    font-family: var(--main-text-font-family);
 }
 
