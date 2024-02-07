@@ -10,25 +10,27 @@
     <title>Number Game</title>
 </head>
 <body>
-    <nav>
-        <button id="replayGame">Again!</button>
-        <p class="gameRules">Between 1 and 20</p>
-    </nav>
-    <main>   
-    <header>Guess My Number!</header>
-    <h1 class="number-box" id="numberRandom">14</h1>
-    <container>
+ <header class="header-top"> 
+    <button class="replay_button" id="replayGame">Again!</button>
+    <p class="game-rules">Between 1 and 20</p>
+ </header>
+<main>   
+ <section class="main-frame">
+    <h1 class="game-title">Guess My Number!</h1>
+    <article class="number-box" id="numberRandom">14</article>
+ </section>
+ <section class="sub-frame">
     <form class="search-form">
-        <input type="text" value="14" placeholder="enter a number" class="input-box" />
-        <button type="submit" class="button-submit" id="submitButton">Check!</button>
+     <input type="text" value="14" placeholder="enter a number" class="input-box" />
+     <button type="submit" class="button-submit" id="submitButton">Check!</button>
     </form>
-     <ul class="stats">
-        <li class="game-stats" id="guessResult">Correct Number!</li>
-        <li class="game-stats" id="currentScore">Score: 15</li>
-        <li class="game-stats" id="highScore">Highscore: 17</li>
-     </ul>
-    </container>
-   </main>
+   <ul class="stats">     
+     <li class="game-stats" id="guessResult">Correct Number!</li>
+     <li class="game-stats" id="currentScore">Score: 15</li> 
+     <li class="game-stats" id="highScore">Highscore: 17</li>
+   </ul>
+ </section>
+</main>
 <script src="src/script.js"></script>  
 </body>
 </html>
