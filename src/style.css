@@ -34,7 +34,7 @@ body {
   font-size: .7em;
 }
 
-.header-top .replay_button {
+.header-top .replay_btn {
     display: flex;
     justify-content: flex-start;
     color:var(--box-text-color);
@@ -70,6 +70,7 @@ body {
 .sub-frame .search-form {
     margin-top: 5em;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -86,3 +87,27 @@ body {
     padding: 1.6em 2em;
 }
 
+.search-form .btn-submit {
+    width: 10em;
+    color:var(--box-text-color);
+    font-family: var(--main-text-font-family);
+    font-size: 1em;
+    border: none;
+    padding: 2em;
+}
+
+.sub-frame .stats {
+    margin-top: 9em;
+}
+
+.stats {
+    list-style: none;
+}
+
+.stats .game-result {
+    margin-bottom: 3em;
+}
+
+.stats .game-stats {
+    line-height: 2em;
+}
