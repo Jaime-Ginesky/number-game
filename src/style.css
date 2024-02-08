@@ -2,6 +2,7 @@
     --main-text-color:rgb(225, 234, 241); 
     --main-text-font-family: 'Press Start 2P', system-ui;
     --box-text-color: rgb(9, 14, 18);
+    --winner-color-background: rgb(54, 174, 54);
 }
 
 * {
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-    background: rgb(54, 174, 54);
+    background: rgb(28, 31, 28);
     color: var(--main-text-color);
     font-family: var(--main-text-font-family);
 }
@@ -53,7 +54,7 @@ body {
 }
 
 .main-frame .number-box {
-    margin-top: 1em;;
+    margin-top: 1em;
     background: var(--main-text-color);
     color: var(--box-text-color);
     font-size: 3.5em;
@@ -110,6 +111,7 @@ body {
     margin-bottom: 3em;
 }
 
-.stats .game-stats {
-    line-height: 2em;
+.stats .stats-score,
+.stats .stats-high {
+    line-height: 3em;
 }

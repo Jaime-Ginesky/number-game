@@ -12,22 +12,22 @@
 <body>
  <header class="header-top"> 
     <button class="replay-btn" id="replay-game">Try Again!</button>
-    <p class="game-rules">Between 1 and 20</p>
+    <p class="game-rules">(Between 1 and 20)</p>
  </header>
 <main>   
  <section class="main-frame">
     <h1 class="game-title">Guess My Number!</h1>
-    <article class="number-box" id="number-random">?</article>
+    <div class="number-box" id="number-random">?</div>
  </section>
  <section class="sub-frame">
     <form class="search-form">
-     <input type="text" value="14" placeholder="enter a number" class="input-box" />
+     <input type="number" value="" class="input-box" />
      <button type="submit" class="btn-submit" id="submit-btn">Check!</button>
     </form>
    <ul class="stats">     
      <li class="game-result" id="guess-result">🏆 Start Guessing!</li>
-     <li class="game-stats" id="current-score">📝 Score: 15</li> 
-     <li class="game-stats" id="high-score">🎉 Highscore: 17</li>
+     <li class="stats-score" id="current-score">📝 Score: </li> 
+     <li class="stats-high" id="high">High Score: </li> 
    </ul>
  </section>
 </main>
