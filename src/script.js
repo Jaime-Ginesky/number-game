@@ -51,15 +51,14 @@ if (!guess) {
 }});
 
 const replayGame = document.getElementById("replay-game");
-replayGame.addEventListener("click", (e) => {
+replayGame.addEventListener("click",  (e) => {
     e.preventDefault();
-    location.reload();
+    numberRandom = Math.trunc(Math.random() *20) +1; 
+    score = 20;
+    document.getElementById('guess-result').textContent = '🏆 Start Guessing!';
     document.querySelector('body').style.backgroundColor= 'rgb(28, 31, 28)';
     document.querySelector('.stats-score').textContent = 0;
-    document.querySelector('.input-box').textContent = 'enter number';
-    document.querySelector('.input-box').style.fontColor= 'rgb(225, 234, 241)';
-
-   
+    document.querySelector('.input-box').value = '';
 });
 
 
