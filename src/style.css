@@ -34,7 +34,7 @@ body {
   font-size: .7em;
 }
 
-.header-top .replay_btn {
+.header-top .replay-btn {
     display: flex;
     justify-content: flex-start;
     color:var(--box-text-color);
@@ -42,6 +42,7 @@ body {
     font-size: 1em;
     border: none;
     padding: 1.6em;
+    cursor: pointer;
 }
 
 .main-frame .game-title {
@@ -94,6 +95,7 @@ body {
     font-size: 1em;
     border: none;
     padding: 2em;
+    cursor: pointer;
 }
 
 .sub-frame .stats {
