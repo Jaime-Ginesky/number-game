@@ -35,7 +35,7 @@ body {
   font-size: .7em;
 }
 
-.header-top .replay-btn {
+.header-top .replay {
     display: flex;
     justify-content: flex-start;
     color:var(--box-text-color);
@@ -89,7 +89,7 @@ body {
     padding: 1.6em 2em;
 }
 
-.search-form .btn-submit {
+.search-form .submit {
     width: 10em;
     color:var(--box-text-color);
     font-family: var(--main-text-font-family);
@@ -107,11 +107,11 @@ body {
     list-style: none;
 }
 
-.stats .game-result {
+.stats .message {
     margin-bottom: 3em;
 }
 
-.stats .stats-score,
-.stats .stats-high {
+.stats .label-score,
+.stats .label-high {
     line-height: 3em;
 }

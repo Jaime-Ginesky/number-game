@@ -11,7 +11,7 @@
 </head>
 <body>
  <header class="header-top"> 
-    <button class="replay-btn" id="replay-game">Try Again!</button>
+    <button class="btn replay">Try Again!</button>
     <p class="game-rules">(Between 1 and 20)</p>
  </header>
 <main>   
@@ -22,12 +22,12 @@
  <section class="sub-frame">
     <form class="search-form">
      <input type="number" value="" class="input-box" />
-     <button type="submit" class="btn-submit" id="submit-btn">Check!</button>
+     <button type="submit" class="btn submit" id="submit-btn">Check!</button>
     </form>
    <ul class="stats">     
-     <li class="game-result" id="guess-result">🏆 Start Guessing!</li>
-     <li class="stats-score" id="current-score">📝 Score: </li> 
-     <li class="stats-high" id="high">High Score: </li> 
+     <li class="message" id="guess-result">🏆 Start Guessing!</li>
+     <li class="label-score">📝 Score: <span class="stats-score" id="current-score"></span></li> 
+     <li class="label-high">💯 High Score:<span class="stats-high" id="high"></span></li> 
    </ul>
  </section>
 </main>
