@@ -3,9 +3,10 @@
 
 let numberRandom = Math.trunc(Math.random() *20) +1; 
 let score = 20;
+let highscore = 0; 
 
-
-    document.querySelector('.replay').addEventListener("click", function(e) {
+    
+   document.querySelector('.replay').addEventListener("click", function(e) {
     e.preventDefault();
     score = 20;
     numberRandom = Math.trunc(Math.random() *20) +1; 
@@ -33,8 +34,14 @@ if (!guess) {
 } else if (guess === numberRandom) {
   document.querySelector('.message').textContent = '🎉 Correct Number!';
   document.getElementById("number-random").textContent = numberRandom;
+
  
   document.querySelector('body').style.backgroundColor = 'rgb(54, 174, 54)';
+
+  if (score > highscore) {
+    highscore = score;
+    document.querySelector('.stats-high').textContent = highscore;
+  }
 
 //   document.querySelector('.number-box').style.width = '30rem';
     
